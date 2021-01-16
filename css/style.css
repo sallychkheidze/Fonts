@@ -18,6 +18,7 @@
 .navigation {
 	display: inline-block;
 	vertical-align: middle;
+	font-family: "ALK Rounded Mtav Med", sans-serif;
 }
 .nav-li {
 	display: inline-block;
@@ -110,6 +111,7 @@ footer {
 	margin-left: 34px;
 	margin-right: 589px;
 	margin-bottom: 17.5px;
+	font-family: 'BPG Arial Caps';
 }
 .date {
 	width: 56px;
@@ -158,7 +160,40 @@ img {
 	vertical-align: top;
 	display: inline-block;
 }
+.news1 {
+	font-family: 'ALK Rounded Mtav Med';
+	text-indent: 30px;
+}
+.news2 {
+	font-family: 'YuseiMagic-Regular';
+	text-transform: uppercase;
+	text-indent: 35px;
 
+}
+.news3 {
+	font-family: 'Bodoni Moda', serif;
+	font-style: italic;
+	text-transform: capitalize;
+	letter-spacing: 3px;
+}
+
+.test1::before {
+        content: 'Start';
+        color: #EE4036;
+        font-size: 30px;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+}
+
+.test1::after {
+	content:' ';
+	width: 3px;
+	height: 27px;
+	background-color: #363E97;
+	display: inline-block;
+	margin-left: 10px;
+
+}
 /*contact page styles*/
 h3 {
 	font-size: 22px;

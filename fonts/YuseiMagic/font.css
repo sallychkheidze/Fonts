@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'YuseiMagic-Regular';
+  src: url('YuseiMagic-Regular.eot');
+  src: url('YuseiMagic-Regular.eot?#iefix') format('embedded-opentype'),
+       url('YuseiMagic-Regular.svg#YuseiMagic-Regular') format('svg'),
+       url('YuseiMagic-Regular.ttf') format('truetype'),
+       url('YuseiMagic-Regular.woff') format('woff'),
+       url('YuseiMagic-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
